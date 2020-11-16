@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LYYKit'
-  s.version          = '1.1'
+  s.version          = '1.2'
   s.summary          = 'this is a first spesc llllllll.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LYYKit/Classes/*.{h,m}'
+  s.source_files = 'LYYKit/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'LYYKit' => ['LYYKit/Assets/*.png']
