@@ -1,0 +1,6 @@
+framework module Pods_LYYKit_Example {
+  umbrella header "Pods-LYYKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

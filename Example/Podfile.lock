@@ -1,0 +1,16 @@
+PODS:
+  - LYYKit (0.1.0)
+
+DEPENDENCIES:
+  - LYYKit (from `../`)
+
+EXTERNAL SOURCES:
+  LYYKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LYYKit: c0d4c89c49e560bd36745f265630fc3da7bf7ba3
+
+PODFILE CHECKSUM: 8109a0c2a124e391d620ca3458a3d31bdcdfa010
+
+COCOAPODS: 1.10.0
