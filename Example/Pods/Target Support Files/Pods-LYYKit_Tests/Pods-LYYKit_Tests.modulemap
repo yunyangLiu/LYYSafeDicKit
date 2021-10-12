@@ -1,6 +1,0 @@
-framework module Pods_LYYKit_Tests {
-  umbrella header "Pods-LYYKit_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
