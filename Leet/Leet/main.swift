@@ -7,5 +7,6 @@
 
 import Foundation
 
-print("Hello, World!")
 
+
+TwoSum.twoSum([1,3,6,10,8], 14)
