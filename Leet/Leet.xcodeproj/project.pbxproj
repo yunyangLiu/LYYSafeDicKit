@@ -11,6 +11,7 @@
 		370B8B2927183E9200AC6B26 /* LengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B8B2827183E9200AC6B26 /* LengthOfLongestSubstring.swift */; };
 		370B8B2B2718418E00AC6B26 /* FindMedianSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B8B2A2718418E00AC6B26 /* FindMedianSortedArrays.swift */; };
 		37B907722715B0AE00E6D628 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B907712715B0AE00E6D628 /* TwoSum.swift */; };
+		37CA90EC271978FF005FBC5F /* LengthOfLIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA90EB271978FF005FBC5F /* LengthOfLIS.swift */; };
 		C68508AA2715AD1B005C5625 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68508A92715AD1B005C5625 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		370B8B2827183E9200AC6B26 /* LengthOfLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLongestSubstring.swift; sourceTree = "<group>"; };
 		370B8B2A2718418E00AC6B26 /* FindMedianSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMedianSortedArrays.swift; sourceTree = "<group>"; };
 		37B907712715B0AE00E6D628 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		37CA90EB271978FF005FBC5F /* LengthOfLIS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLIS.swift; sourceTree = "<group>"; };
 		C68508A62715AD1B005C5625 /* Leet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leet; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68508A92715AD1B005C5625 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +73,14 @@
 			path = Day1;
 			sourceTree = SOURCE_ROOT;
 		};
+		37CA90EA27197865005FBC5F /* Day4 */ = {
+			isa = PBXGroup;
+			children = (
+				37CA90EB271978FF005FBC5F /* LengthOfLIS.swift */,
+			);
+			path = Day4;
+			sourceTree = SOURCE_ROOT;
+		};
 		C685089D2715AD1B005C5625 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +100,7 @@
 		C68508A82715AD1B005C5625 /* Leet */ = {
 			isa = PBXGroup;
 			children = (
+				37CA90EA27197865005FBC5F /* Day4 */,
 				370B8B2727183E7700AC6B26 /* Day3 */,
 				37086B2E2716D9A800248D05 /* Day2 */,
 				37B9076E2715B03700E6D628 /* Day1 */,
@@ -158,6 +169,7 @@
 				37086B302716DA1600248D05 /* AddTwoNumbers.swift in Sources */,
 				370B8B2B2718418E00AC6B26 /* FindMedianSortedArrays.swift in Sources */,
 				370B8B2927183E9200AC6B26 /* LengthOfLongestSubstring.swift in Sources */,
+				37CA90EC271978FF005FBC5F /* LengthOfLIS.swift in Sources */,
 				37B907722715B0AE00E6D628 /* TwoSum.swift in Sources */,
 				C68508AA2715AD1B005C5625 /* main.swift in Sources */,
 			);

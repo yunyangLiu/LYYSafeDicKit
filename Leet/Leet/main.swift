@@ -40,3 +40,5 @@ import Foundation
 //print(LengthOfLongestSubstring.lengthOfLongestSubstring(str: "pwwkew"))
 
 //print(FindMedianSortedArrays.findMedianSortedArrays(nums1: [1,4,7], nums2: [2,8]))
+
+LengthOfLIS.LengthOfLIS(nums: [1,6,3,5,7])
