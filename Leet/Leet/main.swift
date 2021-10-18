@@ -41,4 +41,8 @@ import Foundation
 
 //print(FindMedianSortedArrays.findMedianSortedArrays(nums1: [1,4,7], nums2: [2,8]))
 
-LengthOfLIS.LengthOfLIS(nums: [1,6,3,5,7])
+//LengthOfLIS.LengthOfLIS(nums: [1,6,3,5,7])
+
+print(ConvertZ.convertZ(s: "abcdefghml",numRows: 3))
+
+

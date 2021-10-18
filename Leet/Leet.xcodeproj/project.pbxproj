@@ -10,6 +10,7 @@
 		37086B302716DA1600248D05 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37086B2F2716DA1600248D05 /* AddTwoNumbers.swift */; };
 		370B8B2927183E9200AC6B26 /* LengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B8B2827183E9200AC6B26 /* LengthOfLongestSubstring.swift */; };
 		370B8B2B2718418E00AC6B26 /* FindMedianSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B8B2A2718418E00AC6B26 /* FindMedianSortedArrays.swift */; };
+		374F9D54271D77B400A371A7 /* ConvertZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374F9D53271D77B400A371A7 /* ConvertZ.swift */; };
 		37B907722715B0AE00E6D628 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B907712715B0AE00E6D628 /* TwoSum.swift */; };
 		37CA90EC271978FF005FBC5F /* LengthOfLIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA90EB271978FF005FBC5F /* LengthOfLIS.swift */; };
 		C68508AA2715AD1B005C5625 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68508A92715AD1B005C5625 /* main.swift */; };
@@ -31,6 +32,7 @@
 		37086B2F2716DA1600248D05 /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
 		370B8B2827183E9200AC6B26 /* LengthOfLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLongestSubstring.swift; sourceTree = "<group>"; };
 		370B8B2A2718418E00AC6B26 /* FindMedianSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMedianSortedArrays.swift; sourceTree = "<group>"; };
+		374F9D53271D77B400A371A7 /* ConvertZ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertZ.swift; sourceTree = "<group>"; };
 		37B907712715B0AE00E6D628 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		37CA90EB271978FF005FBC5F /* LengthOfLIS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLIS.swift; sourceTree = "<group>"; };
 		C68508A62715AD1B005C5625 /* Leet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leet; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +65,14 @@
 				370B8B2A2718418E00AC6B26 /* FindMedianSortedArrays.swift */,
 			);
 			path = Day3;
+			sourceTree = SOURCE_ROOT;
+		};
+		374F9D52271D779C00A371A7 /* Day5 */ = {
+			isa = PBXGroup;
+			children = (
+				374F9D53271D77B400A371A7 /* ConvertZ.swift */,
+			);
+			path = Day5;
 			sourceTree = SOURCE_ROOT;
 		};
 		37B9076E2715B03700E6D628 /* Day1 */ = {
@@ -100,6 +110,7 @@
 		C68508A82715AD1B005C5625 /* Leet */ = {
 			isa = PBXGroup;
 			children = (
+				374F9D52271D779C00A371A7 /* Day5 */,
 				37CA90EA27197865005FBC5F /* Day4 */,
 				370B8B2727183E7700AC6B26 /* Day3 */,
 				37086B2E2716D9A800248D05 /* Day2 */,
@@ -168,6 +179,7 @@
 			files = (
 				37086B302716DA1600248D05 /* AddTwoNumbers.swift in Sources */,
 				370B8B2B2718418E00AC6B26 /* FindMedianSortedArrays.swift in Sources */,
+				374F9D54271D77B400A371A7 /* ConvertZ.swift in Sources */,
 				370B8B2927183E9200AC6B26 /* LengthOfLongestSubstring.swift in Sources */,
 				37CA90EC271978FF005FBC5F /* LengthOfLIS.swift in Sources */,
 				37B907722715B0AE00E6D628 /* TwoSum.swift in Sources */,
