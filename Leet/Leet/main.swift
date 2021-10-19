@@ -43,6 +43,7 @@ import Foundation
 
 //LengthOfLIS.LengthOfLIS(nums: [1,6,3,5,7])
 
-print(ConvertZ.convertZ(s: "abcdefghml",numRows: 3))
+//print(ConvertZ.convertZ(s: "abcdefghml",numRows: 3))
 
 
+print(ReverseInt.reverse(-123))
