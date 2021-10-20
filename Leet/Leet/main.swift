@@ -46,4 +46,8 @@ import Foundation
 //print(ConvertZ.convertZ(s: "abcdefghml",numRows: 3))
 
 
-print(ReverseInt.reverse(-123))
+//print(ReverseInt.reverse(-123))
+
+//print(Palindrome.isPalindrome(12121))
+
+print(MaxArea.maxArea([1,8,6,2,5,4,8,3,7]))
