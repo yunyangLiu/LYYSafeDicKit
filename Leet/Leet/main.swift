@@ -50,4 +50,6 @@ import Foundation
 
 //print(Palindrome.isPalindrome(12121))
 
-print(MaxArea.maxArea([1,8,6,2,5,4,8,3,7]))
+//print(IntToRoman.intToRoman(10))
+
+IntToRoman.romanToInt("MCMXCIV")
