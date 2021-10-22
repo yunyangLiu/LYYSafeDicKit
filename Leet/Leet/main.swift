@@ -52,4 +52,8 @@ import Foundation
 
 //print(IntToRoman.intToRoman(10))
 
-IntToRoman.romanToInt("MCMXCIV")
+//IntToRoman.romanToInt("MCMXCIV")
+
+//print(LongestCommonPrefix.longestCommonPrefix(["fliwer","fliow","flight","mmm",]))
+
+ThreeSum.threeSum([-4,-2,1,-5,-4,-4,4,-2,0,4,-2,3,1,-5,0])
