@@ -56,4 +56,10 @@ import Foundation
 
 //print(LongestCommonPrefix.longestCommonPrefix(["fliwer","fliow","flight","mmm",]))
 
-ThreeSum.threeSum([-4,-2,1,-5,-4,-4,4,-2,0,4,-2,3,1,-5,0])
+//ThreeSum.threeSum([4,4,3,-5,0,0,0,-2,3,-5,-5,0])
+
+
+//ThreeSumClosest.threeSumClosest([-1,2,1,-4], 1)
+
+
+LetterCombinations().letterCombinations("23")
