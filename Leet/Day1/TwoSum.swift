@@ -38,13 +38,56 @@ class TwoSum: NSObject {
             let str = "\(n)"
             
             if let index = dic[str] {
-                print([i,index])
-                return[i,index]
+                if index != i{
+                    print([i,index])
+                    return[i,index]
+
+                }
             }
 
             
         }
 
        return [0]
+    }
+    
+   static func isValid(_ s: String) -> Bool {
+
+       let dic = [")":"(","]":"[","}":"{"]
+       
+       if s.count % 2 != 0{
+           return false
+
+       }
+      
+       var array = [Character]()
+       for c in s {
+           switch c {
+           case "(","[","{":
+               array.append(c)
+               
+           case ")","]","}":
+               if array.count == 0 {
+                  return false
+               }
+               let str = dic[String(c)]
+               if String(array.last!) == str {
+                   array.removeLast()
+                   
+               }else{
+                   
+                   return false
+               }
+               
+           default:
+               break
+           }
+       }
+       
+       if array.count == 0 {
+           return true
+       }
+       
+       return false
     }
 }

@@ -9,8 +9,8 @@ import Foundation
 
 
 
-//TwoSum.twoSum([1,3,6,10,8], 14)
-
+TwoSum.twoSum([3,2,4], 6)
+TwoSum.isValid("){")
 //var node1 = ListNode()
 //var node2 = ListNode()
 //var node3 = ListNode()
@@ -31,7 +31,15 @@ import Foundation
 //
 //node2.next = node3
 //
-//node4.next = node5
+//node3.next = node5
+//
+//
+//AddTwoNumbers.printNode(node: node1)
+//
+//print("----------------")
+//AddTwoNumbers.printNode(node: RemoveNthFromEnd.removeNthFromEnd(node1, 2))
+
+
 //
 //var node = AddTwoNumbers.addTwoNumbers(node1: node1, node2: node4)
 //AddTwoNumbers.printNode(node: node)
@@ -62,4 +70,4 @@ import Foundation
 //ThreeSumClosest.threeSumClosest([-1,2,1,-4], 1)
 
 
-LetterCombinations().letterCombinations("23")
+//LetterCombinations().letterCombinations("23")
