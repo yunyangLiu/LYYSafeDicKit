@@ -21,7 +21,7 @@ class RemoveNthFromEnd: NSObject {
             return head
         }
         
-        let dummyHead = ListNode(val: -1, next: head!)
+       let dummyHead = ListNode(-1, head!)
         
         var slow = dummyHead
         var fast = dummyHead
@@ -37,6 +37,7 @@ class RemoveNthFromEnd: NSObject {
         
         slow.next = slow.next?.next
         
+       
         return dummyHead.next
         
     }

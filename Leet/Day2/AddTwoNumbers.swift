@@ -23,20 +23,28 @@ import Cocoa
  
  */
 
-class ListNode {
-    
-    var val:Int?
-    
-    var next: ListNode?
-    
-    init(val:Int,next:ListNode) {
-        self.val = val
-        self.next = next
-    }
-    
-    init(){
-        
-    }
+//class ListNode {
+//
+//    var val:Int?
+//
+//    var next: ListNode?
+//
+//    init(val:Int,next:ListNode) {
+//        self.val = val
+//        self.next = next
+//    }
+//
+//    init(){
+//
+//    }
+//}
+
+public class ListNode {
+    public var val: Int
+    public var next: ListNode?
+    public init() { self.val = 0; self.next = nil; }
+    public init(_ val: Int) { self.val = val; self.next = nil; }
+    public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
 }
 
 class AddTwoNumbers: NSObject {
@@ -52,7 +60,7 @@ class AddTwoNumbers: NSObject {
         var carry = 0;
 
         while l1 != nil && l2 != nil {
-            let val = l1!.val! + l2!.val! + carry
+            let val = l1!.val + l2!.val + carry
             let tmepleNode = ListNode()
             tmepleNode.val = val % 10
             carry = val / 10
@@ -64,7 +72,7 @@ class AddTwoNumbers: NSObject {
         
        
         while l1 != nil {
-            let val = l1!.val! + carry
+            let val = l1!.val + carry
             
             let tmepleNode = ListNode()
 
@@ -79,7 +87,7 @@ class AddTwoNumbers: NSObject {
         }
         
         while l2 != nil {
-            let val = l2!.val! + carry
+            let val = l2!.val + carry
             
             let tmepleNode = ListNode()
 
@@ -111,7 +119,7 @@ class AddTwoNumbers: NSObject {
         var n = node
         
         while n != nil {
-            print("\(n!.val!)")
+            print("\(n!.val)")
             n = n!.next
         }
     }

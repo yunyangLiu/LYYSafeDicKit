@@ -51,6 +51,27 @@ class TwoSum: NSObject {
        return [0]
     }
     
+   //26. 删除有序数组中的重复项
+   static func removeDuplicates1(_ nums: inout [Int]) -> Int {
+    
+    if nums.count == 0 {
+        return 0
+    }
+    
+    var j = 0
+    for i in 0 ..< nums.count {
+        
+        if nums[j] != nums[i] {
+            j += 1
+           nums[j] = nums[i]
+        }
+    }
+    
+    return j+1
+    
+    
+  }
+    
    static func isValid(_ s: String) -> Bool {
 
        let dic = [")":"(","]":"[","}":"{"]

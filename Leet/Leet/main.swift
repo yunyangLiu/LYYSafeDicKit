@@ -7,10 +7,12 @@
 
 import Foundation
 
+var nums = [0,0,1,1,1,2,2,3,3,4]
 
-
-TwoSum.twoSum([3,2,4], 6)
-TwoSum.isValid("){")
+TwoSum.removeDuplicates1(&nums)
+//TwoSum.removeDuplicates1([1,2,3,2,4,5])
+//TwoSum.twoSum([3,2,4], 6)
+//TwoSum.isValid("){")
 //var node1 = ListNode()
 //var node2 = ListNode()
 //var node3 = ListNode()
@@ -23,15 +25,20 @@ TwoSum.isValid("){")
 //
 //node3.val = 9
 //
-//node4.val = 2
+//node4.val = 6
 //
-//node5.val = 2
+//node5.val = 10
 //
 //node1.next = node2
 //
 //node2.next = node3
 //
-//node3.next = node5
+//node4.next = node5
+//
+//
+//MergeTwoLists().mergeTwoLists(node1, node4)
+
+
 //
 //
 //AddTwoNumbers.printNode(node: node1)
