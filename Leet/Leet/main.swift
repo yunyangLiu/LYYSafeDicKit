@@ -7,11 +7,13 @@
 
 import Foundation
 
-var nums = [0,0,1,1,1,2,2,3,3,4]
-
-TwoSum.removeDuplicates1(&nums)
+var nums =  [3,2,2,3]
+//
+//TwoSum.removeDuplicates1(&nums)
 //TwoSum.removeDuplicates1([1,2,3,2,4,5])
-//TwoSum.twoSum([3,2,4], 6)
+//TwoSum.removeElement(
+//    &nums, 3)
+////TwoSum.removeElement(<#T##nums: &[Int]##[Int]#>, <#T##val: Int##Int#>)
 //TwoSum.isValid("){")
 //var node1 = ListNode()
 //var node2 = ListNode()
@@ -36,7 +38,7 @@ TwoSum.removeDuplicates1(&nums)
 //node4.next = node5
 //
 //
-//MergeTwoLists().mergeTwoLists(node1, node4)
+//MergeTwoLists().mergeTwoLists1(node1, node4)
 
 
 //
@@ -78,3 +80,6 @@ TwoSum.removeDuplicates1(&nums)
 
 
 //LetterCombinations().letterCombinations("23")
+    //""
+print(CompleteStr.strStr("abc", "c"))
+
